@@ -1,0 +1,31 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>groupId</groupId>
+  <artifactId>artifactId</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+	<scm>
+		<connection>scm:git:git@github.com:emenaceb/release-test-project.git</connection>
+		<developerConnection>scm:git:git@github.com:emenaceb/release-test-project.git</developerConnection>
+	</scm>
+
+	<distributionManagement>
+		<!-- Site omitted - each project must provide their own -->
+		<repository>
+			<id>prb-releases</id>
+			<name>Releases Repository</name>
+			<url>file:///C:/tmp/maven_repos/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>prb-releases</id>
+			<name>Development Snapshot Repository</name>
+			<url>file:///C:/tmp/maven_repos/releases</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
+  <modules>
+    <module>subproject1</module>
+    <module>subproject2</module>
+  </modules>
+</project>
