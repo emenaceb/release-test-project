@@ -2,13 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>groupId</groupId>
   <artifactId>artifactId</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   
 	<scm>
 		<connection>scm:git:git@github.com:emenaceb/release-test-project.git</connection>
 		<developerConnection>scm:git:git@github.com:emenaceb/release-test-project.git</developerConnection>
-	  <tag>artifactId-1.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>
